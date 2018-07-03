@@ -1,0 +1,27 @@
+.promo {
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.promo__wrapper {
+    margin: auto;
+    width: 450px;
+    min-height: 200px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.promo__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.promo__text {
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
