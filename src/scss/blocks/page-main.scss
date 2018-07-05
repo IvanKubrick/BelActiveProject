@@ -1,4 +1,9 @@
 .page-main {
-    // background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-    // height: 200px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - #{$nav-height} - #{$footer-height});
+    background-image: url('../img/bg-header.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
