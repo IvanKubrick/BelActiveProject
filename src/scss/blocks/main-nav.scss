@@ -4,7 +4,7 @@
 
 .main-nav__wrapper {
     width: 960px;
-    margin: 0 auto;
+    margin: 15px auto;
     padding: 0 10px;
 }
 
@@ -16,11 +16,10 @@
 }
 
 .main-nav__item {
-    border: 1px solid #242424;
-    border-right: none;
-    
+    margin-right: 5px;
+
     &:last-child {
-        border-right: 1px solid #242424;
+        margin-right: 0;
     }
 }
 
@@ -29,9 +28,18 @@
     align-items: center;
     padding: 10px 20px;
     height: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    overflow: hidden;
 
     &:hover {
-        background-color: #242424;
+        background-color: #4d4d4d;
         color: #fff;
     }
+}
+
+.main-nav__item--active .main-nav__link {
+    background-color: #4d4d4d;
+    color: #fff;
 }

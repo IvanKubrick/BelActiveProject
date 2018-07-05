@@ -1,0 +1,24 @@
+.button-main {
+    background: transparent;
+    border: 1px solid $yellow;
+    color: $yellow;
+    padding: 10px 20px;
+    display: block;
+    margin:  0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    &:hover {
+        border-color: #ffc000;
+        color: #ffc000;
+    }
+
+    &:active, &:focus {
+        border-color: #a88824;
+        color: #a88824;
+        outline-color: #a88824;
+    }
+}
