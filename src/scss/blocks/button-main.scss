@@ -1,9 +1,12 @@
 .button-main {
     background: transparent;
-    border: 1px solid $yellow;
-    color: $yellow;
-    padding: 10px 20px;
-    display: block;
+    border: 1px solid $button-color;
+    color: $button-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
     margin:  0 auto;
     margin-top: 20px;
     cursor: pointer;
@@ -12,13 +15,12 @@
     font-size: 14px;
 
     &:hover {
-        border-color: #ffc000;
-        color: #ffc000;
+        border-color: $button-color--hover;
+        color: $button-color--hover;
     }
 
-    &:active, &:focus {
-        border-color: #a88824;
-        color: #a88824;
-        outline-color: #a88824;
+    &:active {
+        border-color: $button-color--active;
+        color: $button-color--active;
     }
 }
