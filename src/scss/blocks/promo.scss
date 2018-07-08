@@ -7,7 +7,7 @@
 
 .promo__wrapper {
     margin: auto;
-    width: 500px;
+    width: 450px;
     color: #fff;
 }
 
@@ -27,5 +27,15 @@
 @media(max-width: $desktop-width) {
     .promo {
         width: 100%;
+    }
+
+    .promo__wrapper {
+        width: 500px;
+    }
+}
+
+@media(max-width: $tablet-width) {
+    .promo__wrapper {
+        width: 90%;
     }
 }
