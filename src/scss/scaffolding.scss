@@ -32,6 +32,19 @@ a {
 }
 
 .section-title {
+    position: relative;
     font-size: 26px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    color: $dark-grey;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 3px;
+        background-color: $dark-grey;
+    }
 }
