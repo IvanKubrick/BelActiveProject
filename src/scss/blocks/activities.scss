@@ -5,13 +5,8 @@
 }
 
 .activities {
-    background-color: #bababa;
+    background-color: $light-grey;
     padding: 20px 10px;
-}
-
-.activities-title {
-    font-size: 26px;
-    margin-bottom: 20px;
 }
 
 .activities__item {
@@ -19,17 +14,6 @@
     padding: 10px 20px;
     margin-bottom: 10px;
     background-color: #fff;
-
-    // &:before {
-    //     position: absolute;
-    //     top: 18px;
-    //     left: 15px;
-    //     content: "";
-    //     width: 5px;
-    //     height: 5px;
-    //     border-radius: 50%;
-    //     background-color: #242424;
-    // }
 }
 
 @media(max-width: $desktop-width) {

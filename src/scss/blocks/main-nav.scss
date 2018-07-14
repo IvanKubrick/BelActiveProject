@@ -38,13 +38,13 @@
     overflow: hidden;
 
     &:hover {
-        background-color: #4d4d4d;
+        background-color: $grey;
         color: #fff;
     }
 }
 
 .main-nav__item--active .main-nav__link {
-    background-color: #4d4d4d;
+    background-color: $grey;
     color: #fff;
 }
 
