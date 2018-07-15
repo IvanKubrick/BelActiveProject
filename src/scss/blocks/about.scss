@@ -1,3 +1,7 @@
+.about {
+    background-color: #fff;
+}
+
 .about__text {
     margin-bottom: 20px;
 }
@@ -11,12 +15,14 @@
     margin-bottom: 10px;
     padding-left: 20px;
 
-    &:before {
+    &:before { 
         content: "";
         position: absolute;
-        left: 10px;
-        width: 3px;
-        height: 100%;
+        left: 5px;
+        top: 7px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
         background-color: $grey;
     }
 }

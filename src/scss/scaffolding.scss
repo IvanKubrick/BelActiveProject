@@ -31,7 +31,7 @@ a {
 }
 
 section {
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .main-title {
@@ -58,6 +58,7 @@ section {
     align-items: center;
     position: relative;
     text-transform: uppercase;
+    padding: 10px 0;
 
     &:before {
         content: "";
