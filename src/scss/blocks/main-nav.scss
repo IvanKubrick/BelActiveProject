@@ -1,6 +1,6 @@
 .main-nav {
-    background-color: #fff;
-    min-height: $nav-height;
+    background-color: #eee;
+    height: $nav-height;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +9,7 @@
 .main-nav__wrapper {
     width: 960px;
     margin: 0 auto;
+    height: 100%;
     padding: 0 10px;
 }
 
@@ -17,6 +18,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
+    height: 100%;
 }
 
 .main-nav__item {
@@ -30,7 +32,7 @@
 .main-nav__link {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0 20px;
     height: 100%;
     font-size: 14px;
     text-transform: uppercase;
