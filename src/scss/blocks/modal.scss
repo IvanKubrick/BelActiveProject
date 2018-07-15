@@ -1,0 +1,31 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    &--open {
+        display: block;
+    }
+}
+
+.modal__content {
+    width: 80%;
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+.modal__close {
+    position: absolute;
+    z-index: 20;
+    top: 15px;
+    right: 30px;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
