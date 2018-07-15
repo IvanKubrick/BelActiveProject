@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,14 @@
     <title>БелАктивПроект</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <div class="page-content">
         <nav class="main-nav">
             <div class="main-nav__wrapper">
                 <ul class="main-nav__list">
-                    <li class="main-nav__item main-nav__item--active">
-                        <a href="#" class="main-nav__link">
+                    <li class="main-nav__item">
+                        <a href="index.html" class="main-nav__link">
                             Главная
                         </a>
                     </li>
@@ -22,8 +24,8 @@
                             О компании
                         </a>
                     </li>
-                    <li class="main-nav__item">
-                        <a href="licenses.html" class="main-nav__link">
+                    <li class="main-nav__item main-nav__item--active">
+                        <a href="#" class="main-nav__link">
                             Лицензии
                         </a>
                     </li>
@@ -35,21 +37,20 @@
                 </ul>
             </div>
         </nav>
-        <main class="main-main-page">
-            <div class="promo">
-                <div class="promo__wrapper">
-                    <h2 class="promo__title">БелАктивПроект</h2>
-                    <p class="promo__text">
-                        Разработка проектно-сметной документации качественно и в сжатые сроки.
-                    </p>
-                    <p class="promo__text">
-                        Индивидуальный подход к каждому проекту.
-                    </p>
-                    <a href="about.html" class="button-main">Узнать больше</a>
+        <main>
+            <section class="licenses">
+                <div class="wrapper">
+                    <a href="#" class="licenses__block">
+                        <img src="./img/certificate-0001030.jpg" alt="Аттестат соответствия №0001030-ГП">
+                    </a>
+                    <a href="#" class="licenses__block">
+                        <img src="./img/certificate-0002358.jpg" alt="Аттестат соответствия №0002358-ПР">
+                    </a>
                 </div>
-            </div>
+            </section>
         </main>
     </div>
     <footer class="page-footer"></footer>
 </body>
+
 </html>
