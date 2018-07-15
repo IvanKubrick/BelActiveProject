@@ -1,12 +1,11 @@
-.main-wrapper {
+.wrapper {
     width: 960px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 .activities {
-    background-color: $light-grey;
-    padding: 20px 10px;
+    background-color: $grey;
 }
 
 .activities__item {
@@ -17,13 +16,13 @@
 }
 
 @media(max-width: $desktop-width) {
-    .main-wrapper {
+    .wrapper {
         width: 730px;
     }
 }
 
 @media(max-width: $tablet-width) {
-    .main-wrapper {
+    .wrapper {
         width: 100%;
     }
 }
