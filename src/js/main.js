@@ -18,8 +18,15 @@
     });
 
     closeBtn.addEventListener('click', () => modal.classList.remove('modal--open'));
+
     document.documentElement.addEventListener('keydown', (event) => {
         if (modal.classList.contains('modal--open')) {
+            modal.classList.remove('modal--open');
+        }
+    });
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal && modal.classList.contains('modal--open')) {
             modal.classList.remove('modal--open');
         }
     });
