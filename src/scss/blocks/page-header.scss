@@ -1,0 +1,15 @@
+.page-header {
+    height: $header-height;
+    background-color: $header-color;
+}
+
+.page-header__upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $header-upper-height;
+}
+
+.page-header__logo {
+
+}

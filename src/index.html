@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,49 @@
     <title>БелАктивПроект</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <div class="page-content">
-        <nav class="main-nav">
-            <div class="main-nav__wrapper">
-                <ul class="main-nav__list">
-                    <li class="main-nav__item main-nav__item--active">
-                        <a href="#" class="main-nav__link">
-                            Главная
-                        </a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="about.html" class="main-nav__link">
-                            О компании
-                        </a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="licenses.html" class="main-nav__link">
-                            Лицензии
-                        </a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="contacts.html" class="main-nav__link">
-                            Контакты
-                        </a>
-                    </li>
-                </ul>
+        <header class="page-header">
+            <div class="page-header__upper wrapper">
+                <div class="page-header__logo">БелАктивПроект</div>
+                <div class="page-header__contacts contacts">
+                    <div class="contacts__fax-mobile">
+                        <div class="contacts__contact">+375 (17) 252-77-26</div>
+                    </div>
+                    <div class="contacts__mobile">
+                        <div class="contacts__contact">+375 (44) 722-64-56</div>
+                        <div class="contacts__contact">+375 (29) 674-00-67</div>
+                    </div>
+                </div>
             </div>
-        </nav>
+            <nav class="main-nav">
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item main-nav__item--active">
+                            <a class="main-nav__link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="about.html" class="main-nav__link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="licenses.html" class="main-nav__link">
+                                Лицензии
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="contacts.html" class="main-nav__link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <main class="main-main-page">
             <div class="promo">
                 <div class="promo__wrapper">
@@ -50,6 +66,22 @@
             </div>
         </main>
     </div>
-    <footer class="page-footer"></footer>
+    <footer class="page-footer">
+        <div class="wrapper">
+            <div class="page-footer__copyright">
+                &copy; БелАктивПроект, 2018
+            </div>
+            <div class="page-footer__contacts contacts">
+                <div class="contacts__fax-mobile">
+                    <div class="contacts__contact">+375 (17) 252-77-26</div>
+                </div>
+                <div class="contacts__mobile">
+                    <div class="contacts__contact">+375 (44) 722-64-56</div>
+                    <div class="contacts__contact">+375 (29) 674-00-67</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

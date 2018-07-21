@@ -1,8 +1,10 @@
 $desktop-width: 980px;
 $tablet-width: 767px;
 
-$nav-height: 50px;
-$footer-height: 80px;
+$header-height: 80px;
+$header-upper-height: 40px;
+$nav-height: 40px;
+$footer-height: 50px;
 
 $light-grey: #ddd;
 $grey: #4d4d4d;
@@ -11,3 +13,6 @@ $dark-grey: #242424;
 $button-color: #ffd658;
 $button-color--hover: #ffc000;
 $button-color--active: #a88824;
+
+// $header-color: #ffe26d;
+$header-color: #ffc950;

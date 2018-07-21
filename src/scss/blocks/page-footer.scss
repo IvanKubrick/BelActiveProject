@@ -1,4 +1,16 @@
 .page-footer {
     min-height: $footer-height;
     background-color: #000;
+    padding-top: 5px;
+    color: #ccc;
+}
+
+.page-footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-footer__copyright {
+    font-size: 14px;
 }
