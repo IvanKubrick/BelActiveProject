@@ -9,10 +9,21 @@ const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin');
 const del = require('del');
 const run = require('run-sequence');
+const minifyjs = require('gulp-js-minify');
 
 
 gulp.task('html', () => {
     gulp.src('src/*html')
+        .pipe(gulp.dest('build'))
+});
+
+gulp.task('js', () => {
+    gulp.src([
+        'src/js/*.js',
+    ], {
+        base: 'src'
+    })
+        .pipe(minifyjs())
         .pipe(gulp.dest('build'))
 });
 
@@ -48,12 +59,12 @@ gulp.task('serve', () => {
 
     gulp.watch('src/scss/**/*.scss', ['style']);
     gulp.watch('src/*.html', ['html']).on('change', server.reload);
+    gulp.watch('src/js/*.js', ['js']).on('change', server.reload);
 });
 
 gulp.task('copy', () => {
     return gulp.src([
             'src/fonts/**/*.{woff,woff2}',
-            'src/js/**'
         ], {
             base: 'src'
         })
@@ -70,6 +81,7 @@ gulp.task('build', (done) => {
         'copy',
         'images',
         'style',
+        'js',
         'html',
         done
     );
