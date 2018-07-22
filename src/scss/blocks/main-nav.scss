@@ -46,18 +46,10 @@
     .main-nav__wrapper {
         width: 730px;
     }
-
-    // .main-nav__link {
-    //     padding: 5px 5px;
-    // }
 }
 
 @media(max-width: $tablet-width) {
     .main-nav__wrapper {
         width: 100%;
     }
-
-    // .main-nav__list {
-    //     display: block;
-    // }
 }

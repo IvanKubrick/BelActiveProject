@@ -5,8 +5,6 @@
     const closeBtn = document.querySelector('.modal__close');
 
     certificatesWrapper.addEventListener('click', (event) => {
-        console.log(event)
-
         if (!event.target.classList.contains('licenses__block')) {
             return;
         } else {
