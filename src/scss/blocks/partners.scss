@@ -7,16 +7,17 @@
 
 .partners__item {
     width: 300px;
-    height: 150px;
+    height: 160px;
     background-color: #ccc;
-    border: 1px solid black;
-    background-image: url('../img/partners/ruukki.jpg');
-    background-position: center;
+    background-image: url('../img/partners-spritesheet.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    // todo: sprites
-    // &:nth-child(1) {
 
-    // }
+    &:nth-child(1) {background-position: -10px -10px}
+    &:nth-child(2) {background-position: -10px -190px}
+    &:nth-child(3) {background-position: -10px -370px}
+    &:nth-child(4) {background-position: -10px -550px}
+    &:nth-child(5) {background-position: -10px -730px}
+    &:nth-child(6) {background-position: -10px -910px}
+    &:nth-child(7) {background-position: -10px -1090px}
+    &:nth-child(8) {background-position: -10px -1270px}
 }
