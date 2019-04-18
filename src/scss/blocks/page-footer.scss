@@ -14,3 +14,19 @@
 .page-footer__copyright {
     font-size: 14px;
 }
+
+@media(max-width: $w600) {
+    .page-footer {
+        min-height: auto;
+    }
+    .page-footer .wrapper {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .page-footer__contacts {
+        flex-direction: column;
+    }
+    .page-footer__copyright {
+        margin-bottom: 5px;
+    }
+}

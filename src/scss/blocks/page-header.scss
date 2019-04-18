@@ -1,7 +1,7 @@
 .page-header {
     height: $header-height;
     background-color: $header-color;
-}
+}   
 
 .page-header__upper {
     display: flex;
@@ -13,4 +13,10 @@
 .page-header__logo {
     font-size: 20px;
     text-transform: uppercase;
+}
+
+@media(max-width: $w600) {
+    .contacts.page-header__contacts {
+        display: none;
+    }    
 }

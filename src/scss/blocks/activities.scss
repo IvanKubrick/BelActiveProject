@@ -5,14 +5,12 @@
 }
 
 .activities {
-    background-color: $grey;
+    background-color: #efefef;
 }
 
+
 .activities__item {
-    position: relative;
     padding: 10px 20px;
-    margin-bottom: 10px;
-    background-color: #fff;
 }
 
 @media(max-width: $desktop-width) {

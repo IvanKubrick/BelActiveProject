@@ -1,5 +1,5 @@
 .main-nav {
-    background-color: #eee;
+    background-color: $light-gray;
     height: $nav-height;
     display: flex;
     flex-direction: column;
@@ -28,18 +28,17 @@
     height: 100%;
     font-size: 14px;
     text-transform: uppercase;
-    border: 2px solid transparent;
+    border-bottom: 4px solid transparent;
     overflow: hidden;
+    white-space: nowrap;
 
     &:hover {
-        background-color: $grey;
-        color: #fff;
+        border-bottom-color: $header-color
     }
 }
 
 .main-nav__item--active .main-nav__link {
-    background-color: $grey;
-    color: #fff;
+    border-bottom-color: $header-color;
 }
 
 @media(max-width: $desktop-width) {
@@ -51,5 +50,11 @@
 @media(max-width: $tablet-width) {
     .main-nav__wrapper {
         width: 100%;
+    }
+}
+
+@media(max-width: $w600) {
+    .main-nav__list {
+        display: block;
     }
 }
