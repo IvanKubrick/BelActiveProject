@@ -54,7 +54,25 @@
 }
 
 @media(max-width: $w600) {
+    .main-nav {
+        height: auto;
+        min-height: $nav-height;
+    }
     .main-nav__list {
         display: block;
+        margin-top: 3px;
+    }
+    .main-nav__link {
+        justify-content: center;
+        padding: 3px 0;
+
+        &:hover {
+            border-bottom-color: transparent;
+            background-color: $header-color;
+        }
+    }
+    .main-nav__item--active .main-nav__link {
+        border-bottom-color: transparent;
+        background-color: $header-color;
     }
 }

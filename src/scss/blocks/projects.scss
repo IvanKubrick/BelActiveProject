@@ -1,0 +1,13 @@
+.project__list {
+  list-style-position: inside;
+}
+
+.project__item {
+  & + & {
+    margin-top: 10px;
+  }
+}
+
+.project__link {
+  text-decoration: underline;
+}
