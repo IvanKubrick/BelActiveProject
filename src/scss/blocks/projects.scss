@@ -11,9 +11,11 @@
 
 .project {
   margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
 
   .wrapper {
-    padding: 20px;
+    padding: 20px 40px;
     box-shadow: 0 2px 10px rgba(0,0,0,.15);
   }
 }
@@ -28,4 +30,15 @@
 
 .project__img {
   width: 100%;
+}
+
+@media(max-width: $tablet-width) {
+  .project {
+    margin-bottom: 15px;
+
+    .wrapper {
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    }
+  }
 }
