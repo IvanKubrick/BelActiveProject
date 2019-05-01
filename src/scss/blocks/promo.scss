@@ -39,3 +39,13 @@
         width: 90%;
     }
 }
+
+@media(max-width: 450px) {
+    .promo__title {
+        font-size: 26px;
+    }
+    .promo__text {
+        font-size: 18px;
+        text-align: center;
+    }
+}
